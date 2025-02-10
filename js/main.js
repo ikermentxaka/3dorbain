@@ -60,7 +60,7 @@ topLight.position.set(500, 500, 500) //top-left-ish
 topLight.castShadow = true;
 scene.add(topLight);
 
-const ambientLight = new THREE.AmbientLight(0x333333, objToRender === "dino" ? 8 : 3);
+const ambientLight = new THREE.AmbientLight(0x333333, objToRender === "dino" ? 20 : 7);
 scene.add(ambientLight);
 
 //This adds controls to the camera, so we can rotate / zoom it with the mouse
